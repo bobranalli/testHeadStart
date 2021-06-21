@@ -25,6 +25,7 @@
         const email = txtEmail.value;
         const pass = txtPassword.value;
         const auth = firebase.auth;
+        window.location = "https://bobranalli.github.io/testHeadStart/sign-in"
 
         //Sign In
         const promise = auth.createUserWithEmailAndPassword(email, pass);
