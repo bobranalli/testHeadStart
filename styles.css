@@ -1,0 +1,82 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.sub1 {
+    width: 100%;
+    background-color: #EE6C4D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sub2 {
+    width: 100%;
+    background-color: white;
+    color: #EE6C4D;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #EE6C4D;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sub1:hover {
+    background-color: white;
+    color: #EE6C4D;
+    border: 1px solid #EE6C4D;
+}
+
+.sub2:hover {
+    background-color: #EE6C4D;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+.su-form {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 8px 8px 14px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.about-form {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 8px 8px 14px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.form-signup {
+    text-align: left;
+}
+
+.forgot {
+    color: #EE6C4D;
+}
+
+.sign-message {
+    font-weight: lighter;
+}

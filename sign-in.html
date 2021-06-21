@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+    <title>Sign In</title>
+
+</head>
+<body>
+    <div class = "su-form">
+        <form class = "form-signup">
+            <label class = "sign-message">Sign Into Your Account</label><br><br>
+            <label for="fname">Email</label>
+            <input type="text" id="txtEmail" name="username" placeholder="Username...">
+        
+            <label for="lname">Password</label>
+            <input type="text" id="txtPassword" name="password" placeholder="Enter password here...">
+            <br><br><label class = "forgot">forgot your password?</label><br><br>
+            <input type="submit" value="Submit" class = "sub1" id = "btn_signin">
+        </form>
+
+
+    </div>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyCtlHb8nwlXS9Q7zIyuQcBpRWT1PubWTyU",
+            authDomain: "fir-weblearn-891fd.firebaseapp.com",
+            projectId: "fir-weblearn-891fd",
+            storageBucket: "fir-weblearn-891fd.appspot.com",
+            messagingSenderId: "681275011821",
+            appId: "1:681275011821:web:769654b14ce18d05b7d2e4",
+            measurementId: "G-PXJCWMTLD7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script> src = "app.js" </script>
+
+</body>
+</html>
